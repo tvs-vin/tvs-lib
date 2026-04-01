@@ -1,0 +1,6 @@
+<Loggers>
+    <Root level="debug">
+        <AppenderRef ref="TerminalConsole"/>
+        <AppenderRef ref="File"/>
+    </Root>
+</Loggers>

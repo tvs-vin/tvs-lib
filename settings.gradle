@@ -1,7 +1,7 @@
 pluginManagement {
 	repositories {
 		maven {
-			name = 'Fabric'
+			name = 'TVS-Lib'
 			url = 'https://maven.fabricmc.net/'
 		}
 		mavenCentral()

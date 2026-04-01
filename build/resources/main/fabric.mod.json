@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "tvs-lib",
+	"version": "0.1.1",
+	"name": "tvs-lib",
+	"description": "A common libary for all TVS mods",
+	"authors": [
+		"tvs-vin"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tvs-lib/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"tvs.lib.Tvslib"
+		],
+		"client": []
+	},
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

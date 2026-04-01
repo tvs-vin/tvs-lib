@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tvs-lib.iml" filepath="$PROJECT_DIR$/.idea/tvs-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tvs-lib.client.iml" filepath="$PROJECT_DIR$/.idea/modules/tvs-lib.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tvs-lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tvs-lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tvs-lib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/tvs-lib.test.iml" />
     </modules>
   </component>
 </project>

@@ -3,9 +3,9 @@
 	"id": "tvs-lib",
 	"version": "${version}",
 	"name": "tvs-lib",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A common libary for all TVS mods",
 	"authors": [
-		"Me!"
+		"tvs-vin"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -18,17 +18,8 @@
 		"main": [
 			"tvs.lib.Tvslib"
 		],
-		"client": [
-			"tvs.lib.TvslibClient"
-		]
+		"client": []
 	},
-	"mixins": [
-		"tvs-lib.mixins.json",
-		{
-			"config": "tvs-lib.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.18.5",
 		"minecraft": "~1.21.11",
